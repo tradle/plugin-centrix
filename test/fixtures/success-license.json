@@ -1,0 +1,84 @@
+{
+  "ServiceProducts": {
+    "ServiceProduct": [
+      {
+        "ProductCode": "DriverLicenceVerification"
+      }
+    ]
+  },
+  "ResponseDetails": {
+    "EnquiryNumber": "5793721699",
+    "EnquiryDate": "2017-09-15T23:12:02.546Z",
+    "IsSuccess": true,
+    "ServiceVersion": "20.0.0.0",
+    "WsdlVersion": "17.0.0.0",
+    "ServiceEnvironment": "TEST"
+  },
+  "StatusMessages": {
+    "StatusMessage": [
+      {
+        "MessageCode": "D100",
+        "MessageText": "Credentials OK: B2B User",
+        "MessageType": "Debug",
+        "SupportData": ""
+      },
+      {
+        "MessageCode": "D100",
+        "MessageText": "Server is EC2-TEST2-SUB",
+        "MessageType": "Debug",
+        "SupportData": ""
+      }
+    ]
+  },
+  "EnteredRequestDetails": {
+    "EnquiryReason": "DLVN",
+    "EnquiryReasonDescription": "Drivers Licence Verification",
+    "AmountSought": "0",
+    "ApplicantType": "SNGL",
+    "ApplicantTypeDescription": "Single applicant"
+  },
+  "EnteredConsumerData": {
+    "Personal": {
+      "Surname": "Mercury",
+      "FirstName": "Montgomery",
+      "MiddleName": "",
+      "DateOfBirth": "1980-01-01T00:00:00.000Z",
+      "Gender": "U"
+    },
+    "Addresses": null,
+    "DriverLicence": {
+      "DriverLicenceNumber": "DL123456",
+      "DriverLicenceVersion": 111
+    }
+  },
+  "DataSets": {
+    "ConsumerFile": {
+      "FileNumber": 0,
+      "AgeOfFile": "2017-09-15T23:12:02.546Z",
+      "Personal": {
+        "Surname": "Mercury",
+        "FirstName": "Montgomery",
+        "MiddleName": "",
+        "DateOfBirth": "1980-01-01T00:00:00.000Z",
+        "Gender": "U"
+      }
+    },
+    "DriverLicenceVerification": {
+      "DriverLicenceNumber": "DL1234**",
+      "DriverLicenceVersion": "111",
+      "IsDriverLicenceVerified": true,
+      "IsDriverLicenceLastNameMatched": true,
+      "IsDriverLicenceFirstNameMatched": true,
+      "IsDriverLicenceMiddleNameMatched": true,
+      "IsDriverLicenceDateOfBirthMatched": true,
+      "IsSuccess": true,
+      "IsDriverLicenceVerifiedAndMatched": true,
+      "Surname": "Mercury",
+      "FirstName": "Montgomery",
+      "MiddleName": ""
+    }
+  },
+  "ReportDisclaimer": "This report is provided to the subscriber on the terms and conditions of the subscriber agreement.  Centrix cannot and does not warrant the accuracy of the information contained in this report.  The subscriber is responsible for assessing the creditworthiness of the individual.",
+  "InsolvencyTrusteeServiceAcknowledgement": "Data sourced from the Insolvency and Trustee Service – As this data is subject to change, please visit www.insolvency.govt.nz to confirm current details and for further information specific to the data held.",
+  "CompaniesOfficeAcknowledgement": "Data sourced from the New Zealand Companies Office – As this data is subject to change, please visit www.companies.govt.nz to confirm current details and for further information specific to the data held."
+}

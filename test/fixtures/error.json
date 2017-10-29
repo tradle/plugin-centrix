@@ -1,0 +1,29 @@
+{
+  "GetCreditReportProductsResult": {
+    "ServiceProducts": null,
+    "ResponseDetails": {
+      "EnquiryDate": "2017-09-15T23:04:15.730Z",
+      "IsSuccess": false,
+      "ServiceVersion": "20.0.0.0",
+      "WsdlVersion": "17.0.0.0",
+      "ServiceEnvironment": "TEST"
+    },
+    "StatusMessages": {
+      "StatusMessage": [
+        {
+          "MessageCode": "D100",
+          "MessageText": "Credentials OK: B2B User",
+          "MessageType": "Debug",
+          "SupportData": ""
+        },
+        {
+          "MessageCode": "E575",
+          "MessageText": "Date of Birth required for drivers license verification",
+          "MessageType": "Error",
+          "SupportData": ""
+        }
+      ]
+    },
+    "ReportDisclaimer": "This report is provided to the subscriber on the terms and conditions of the subscriber agreement.  Centrix cannot and does not warrant the accuracy of the information contained in this report.  The subscriber is responsible for assessing the creditworthiness of the individual."
+  }
+}

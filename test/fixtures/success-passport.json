@@ -1,0 +1,74 @@
+{
+  "ServiceProducts": {
+    "ServiceProduct": [
+      {
+        "ProductCode": "DIAPassportVerification"
+      }
+    ]
+  },
+  "ResponseDetails": {
+    "EnquiryNumber": "3178652689",
+    "EnquiryDate": "2017-09-18T02:36:40.820Z",
+    "IsSuccess": true,
+    "ServiceVersion": "20.0.0.0",
+    "WsdlVersion": "17.0.0.0",
+    "ServiceEnvironment": "TEST"
+  },
+  "StatusMessages": {
+    "StatusMessage": [
+      {
+        "MessageCode": "D100",
+        "MessageText": "Credentials OK: B2B User",
+        "MessageType": "Debug",
+        "SupportData": ""
+      },
+      {
+        "MessageCode": "D100",
+        "MessageText": "Server is EC2-TEST2-SUB",
+        "MessageType": "Debug",
+        "SupportData": ""
+      }
+    ]
+  },
+  "EnteredRequestDetails": {
+    "SubscriberReference": "DIA1",
+    "EnquiryReason": "DIAP",
+    "EnquiryReasonDescription": "DIA Passport Validation",
+    "AmountSought": "0",
+    "ApplicantType": "SNGL",
+    "ApplicantTypeDescription": "Single applicant"
+  },
+  "EnteredConsumerData": {
+    "Personal": {
+      "Surname": "Mercury",
+      "FirstName": "Montgomery",
+      "DateOfBirth": "1980-01-01T00:00:00.000Z"
+    },
+    "Addresses": null,
+    "Passport": {
+      "PassportNumber": "AB123456",
+      "Expiry": "2018-04-22T00:00:00.000Z"
+    }
+  },
+  "DataSets": {
+    "ConsumerFile": {
+      "FileNumber": 0,
+      "AgeOfFile": "2017-09-18T02:36:40.820Z",
+      "Personal": {
+        "Surname": "Mercury",
+        "FirstName": "Montgomery",
+        "DateOfBirth": "1980-01-01T00:00:00.000Z"
+      }
+    },
+    "DIAPassport": {
+      "IsSuccess": true,
+      "ErrorMessage": "Success",
+      "DIAPassportVerified": true,
+      "Surname": "Mercury",
+      "FirstName": "Montgomery"
+    }
+  },
+  "ReportDisclaimer": "This report is provided to the subscriber on the terms and conditions of the subscriber agreement. The information contained in this report has been sourced from third parties and Centrix cannot and does not warrant the accuracy of the information or that it is free from errors or defects. Centrix shall not be liable in any way whatsoever for the supply of the information contained in this report or the use of the information.",
+  "InsolvencyTrusteeServiceAcknowledgement": "Data sourced from the Insolvency and Trustee Service – As this data is subject to change, please visit www.insolvency.govt.nz to confirm current details and for further information specific to the data held.",
+  "CompaniesOfficeAcknowledgement": "Data sourced from the New Zealand Companies Office – As this data is subject to change, please visit www.companies.govt.nz to confirm current details and for further information specific to the data held."
+}
